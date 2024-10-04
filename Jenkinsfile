@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Clone Repository') {
             steps {
-                git 'https://your-git-repository-url.git'
+                git 'https://github.com/amaljose01/Jenkins.git'
             }
         }
         stage('Install Dependencies') {
