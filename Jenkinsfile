@@ -19,7 +19,7 @@ pipeline {
         }
         stage('Run Tests') {
             steps {
-                sh 'python your_script.py'
+                sh 'python script.py'
             }
         }
     }
