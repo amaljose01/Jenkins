@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Clone Repository') {
             steps {
-                git 'https://github.com/amaljose01/Jenkins.git'
+                git branch: 'main', url: 'https://github.com/amaljose01/Jenkins.git'
             }
         }
         stage('Install Python and Dependencies') {
